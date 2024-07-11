@@ -3,7 +3,7 @@ package com.airmanagement.view;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-public class airportView {
+public class AirportView {
 
     private Long id;
 

@@ -1,11 +1,10 @@
 package com.airmanagement.view;
 
-import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
-public class companyView {
+public class CompanyView {
 
     @NotNull
     private Long id;

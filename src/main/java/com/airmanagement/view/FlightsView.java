@@ -1,22 +1,19 @@
 package com.airmanagement.view;
 
-import com.airmanagement.entities.Airport;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-public class flightsView {
+public class FlightsView {
 
     private Long id;
 
     @NotNull
-    private airportView from;
+    private AirportView from;
 
     @NotNull
-    private airportView until;
+    private AirportView until;
 
     @NotNull
     private LocalDateTime departureDate;
