@@ -36,6 +36,10 @@ public class Flights {
 
     private LocalTime durationTime;
 
+    private String airPlane;
+
+    private int numberPassengers;
+
     @Override
     public String toString() {
         return "Flights{" +
@@ -45,6 +49,8 @@ public class Flights {
                 ", departureDate=" + departureDate +
                 ", arrivalDate=" + arrivalDate +
                 ", durationTime=" + durationTime +
+                ", airPlane='" + airPlane + '\'' +
+                ", numberPassengers=" + numberPassengers +
                 '}';
     }
 

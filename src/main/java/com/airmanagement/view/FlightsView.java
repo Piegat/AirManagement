@@ -21,8 +21,14 @@ public class FlightsView {
     @NotNull
     private LocalDateTime arrivalDate;
 
+    @NotNull
     private LocalTime durationTime;
 
+    @NotNull
+    private String airPlane;
+
+    @NotNull
+    private int numberPassengers;
 
 
 }
